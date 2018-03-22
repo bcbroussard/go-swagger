@@ -105,10 +105,11 @@
   revision = "d8000b5bfbd1147255710505a27c735b6b2ae2ac"
 
 [[projects]]
-  branch = "master"
+  branch = "datestring"
   name = "github.com/go-openapi/strfmt"
   packages = ["."]
-  revision = "6d1a47fad79c81e8cd732889cb80e91123951860"
+  revision = "81f186370e59809ca878a4f519932ebdbcca4bfc"
+  source = "github.com/bcbroussard/strfmt"
 
 [[projects]]
   branch = "master"
@@ -378,6 +379,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "843d507471a279f79b325cbdbbf77f88e322560dea323059d2f4a141ab6b24a3"
+  inputs-digest = "5d55d322554c00a927b5217fa4240710e9306c833216fccd5471b7833fed51c3"
   solver-name = "gps-cdcl"
   solver-version = 1

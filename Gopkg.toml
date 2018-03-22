@@ -46,8 +46,9 @@
   name = "github.com/go-openapi/spec"
 
 [[constraint]]
-  branch = "master"
+  branch = "datestring"
   name = "github.com/go-openapi/strfmt"
+  source = "github.com/bcbroussard/strfmt"
 
 [[constraint]]
   branch = "master"
@@ -104,3 +105,4 @@
 [[constraint]]
   branch = "v2"
   name = "gopkg.in/yaml.v2"
+
